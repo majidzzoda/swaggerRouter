@@ -6,16 +6,16 @@ const Layout = () => {
     const [theme, toggleTheme] = useDarkSide();
     return (
         <>
-            <div className='flex justify-center bg-gray-300 transition-all duration-[1s] dark:bg-gray-900 dark:text-white font-bold gap-[35px] lg:gap-[50px] items-center py-[25px]'>
+            <div className='flex justify-center bg-gray-300 transition-all duration-[1s] dark:bg-gray-900 dark:text-white font-bold gap-[10px] lg:gap-[50px] items-center py-[25px]'>
                 <AppMode toggleTheme={toggleTheme} />
                 <Link to={'/'}>
-                    <button>Home</button>
+                    <button>Главная</button>
                 </Link>
                 <Link to={'/about'}>
-                    <button>About</button>
+                    <button>О нас</button>
                 </Link>
                 <Link to={'/todo'}>
-                    <button>Users</button>
+                    <button>Пользователи</button>
                 </Link>
             </div>
             <div className='dark:bg-gray-950 transition-all duration-[1s] bg-gray-100 h-[738px] pb-[262px]'>

@@ -14,11 +14,13 @@ const Home = () => {
     });
 
     return (
-        <animated.div className="w-[90%] p-[15px] pb-[35px] lg:p-[50px] text-center transition-all duration-[1s] flex m-auto text-white pt-[10px] flex-col items-center justify-center dark:bg-red-900 bg-red-500 rounded-lg" style={styles}>
-            <animated.span className="font-[700] transition-all duration-[1s] dark:text-red-950 text-[40px]">Home</animated.span>
-            <animated.p className='dark:bg-red-950 transition-all duration-[1s] bg-white text-red-500 p-[10px] rounded-[8px] font-bold' style={styless}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe amet natus quibusdam. Minima quasi aliquam magnam odit corporis dolore voluptates reprehenderit id tenetur. Possimus vel voluptate asperiores quasi ea quas?
-                Sit expedita ut sed itaque, fuga corporis error velit similique quas distinctio voluptatum voluptate mollitia eum explicabo nemo magni perferendis ex eius rerum a? Esse sint officiis quae sequi quis?
+        <animated.div className="w-[90%] p-[15px] pb-[35px] lg:p-[50px] text-center transition-all duration-[1s] flex m-auto text-white pt-[10px] flex-col items-center justify-center dark:bg-gray-900 bg-gray-300 rounded-lg" style={styles}>
+            <animated.span className="font-[700] transition-all duration-[1s] dark:text-gray-950 text-[40px]">Главная</animated.span>
+            <animated.p className='dark:bg-gray-950 transition-all duration-[1s] bg-white text-gray-500 p-[10px] rounded-[8px] font-bold' style={styless}>
+                Добро пожаловать на наш сайт!
+                Мы предлагаем надежные и качественные решения для ваших задач. Наши специалисты всегда готовы помочь и предоставить профессиональную поддержку.
+                Нас отличает индивидуальный подход, оперативность и внимание к деталям.
+                Присоединяйтесь к числу наших довольных клиентов и убедитесь сами в высоком уровне сервиса!
             </animated.p>
         </animated.div >
     );
